@@ -14,7 +14,7 @@ header {
 h1 {
   font-family: "Fasthand", cursive;
   font-weight: 300;
-  margin-left: 3em;
+  margin-left: 10%;
   font-size: 3em;
   font-style: italic;
 }
@@ -25,17 +25,71 @@ h1 {
 ul {
   display: flex;
   justify-content: space-between;
-  margin-left: 23em;
+  margin-left: 16%;
   align-items: center;
   list-style: none;
 }
 li {
-  margin-left: 3em;
+  margin-left: 10%;
   font-size: 22px;
   font-weight: 600;
   letter-spacing: 2px;
 }
+a:hover {
+  color: rgb(192, 192, 192);
+}
 ul a {
   text-decoration: none;
   color: #fff;
+}
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  text-align: center;
+}
+.biografia > img {
+  max-width: 40em;
+  margin-top: 10px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 98px #1f1f1f;
+}
+#biografia {
+  width: 60em;
+  background-color: white;
+  border-radius: 15px;
+  padding-top: 40px;
+}
+#index {
+  width: 55em;
+  border-radius: 15px;
+  box-shadow: 5px 5px 98px #1f1f1f;
+}
+footer {
+  margin-top: 17em;
+  text-align: center;
+  padding: 2em;
+}
+#black-baby {
+  width: 25em;
+  border-radius: 15px;
+  box-shadow: 5px 5px 98px #1f1f1f;
+}
+main > p {
+  margin-top: 20px;
+  width: 40em;
+}
+
+.galeria-images {
+  max-width: 400px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 98px #1f1f1f;
+}
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 1260px;
+  max-width: 1260px;
+  grid-gap: 20px;
 }
